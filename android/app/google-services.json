@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "593978924948",
+    "project_id": "ridesharing-98e9f",
+    "storage_bucket": "ridesharing-98e9f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593978924948:android:3a7573e465709fd84d3981",
+        "android_client_info": {
+          "package_name": "com.app.ridesharing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593978924948-7ucj83m85onhvq0ucv8m2o7lpna6vvtg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBgV_TmoKG-2SP7pLd1kzpDRaLKOGOjvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593978924948-7ucj83m85onhvq0ucv8m2o7lpna6vvtg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "593978924948-p21tmsn1rs54a6h1tnkvv923k2gl4h7s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.ridesharing"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593978924948:android:b4310f728dcdde994d3981",
+        "android_client_info": {
+          "package_name": "com.app.ridesharingrider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593978924948-7ucj83m85onhvq0ucv8m2o7lpna6vvtg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBgV_TmoKG-2SP7pLd1kzpDRaLKOGOjvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593978924948-7ucj83m85onhvq0ucv8m2o7lpna6vvtg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "593978924948-p21tmsn1rs54a6h1tnkvv923k2gl4h7s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.ridesharing"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
