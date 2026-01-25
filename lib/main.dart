@@ -30,9 +30,7 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   // Initialize Firebase first
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
 
   // Register background message handler immediately after Firebase init
   FirebaseMessaging.onBackgroundMessage(_messageHandler);
@@ -44,8 +42,9 @@ Future<void> main() async {
 
   try {
     // Setup notification listeners (no need to init Firebase again)
-    await PushNotificationService(apiClient: Get.find())
-        .setupInteractedMessage();
+    await PushNotificationService(
+      apiClient: Get.find(),
+    ).setupInteractedMessage();
   } catch (e) {
     printX('Error setting up notifications: $e');
   }
@@ -87,8 +86,10 @@ class _MyAppState extends State<MyApp> {
         getPages: RouteHelper().routes,
         locale: localizeController.locale,
         translations: Messages(languages: widget.languages),
-        fallbackLocale: Locale(localizeController.locale.languageCode,
-            localizeController.locale.countryCode),
+        fallbackLocale: Locale(
+          localizeController.locale.languageCode,
+          localizeController.locale.countryCode,
+        ),
       ),
     );
   }
